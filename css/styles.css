@@ -820,7 +820,6 @@ input {
 /*-------------------------Section-team------------------*/
 .section-team {
     background: #f4f4fd;
-    max-width: 320px;
     margin: 0 auto;
 }
 .wrapper-team{
@@ -904,9 +903,7 @@ input {
 }
 /*----------------Tablet-----------------------------------------*/
 @media screen and (min-width: 768px) {
-    .section-team {
-        max-width: 768px;  
-    }
+    
    .wrapper-team {
         padding-right: 108px;
         padding-left: 108px;
@@ -922,7 +919,6 @@ input {
 /*----------------------------Dekstop----------------------------------*/
 @media screen and (min-width: 1158px) {
     .section-team {
-       max-width: 1440px;
        padding-top: 120px;
        padding-bottom: 120px;
        margin: 0 auto;
