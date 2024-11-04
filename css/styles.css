@@ -1050,7 +1050,6 @@ input {
     background: #2e2f42;
     padding-top: 96px;
     padding-bottom: 96px;
-    max-width: 320px;
     margin: 0 auto;
 }
 .footer-link {
@@ -1212,9 +1211,6 @@ input {
 }
 /*----------------Tablet-----------------------------------------*/
 @media screen and (min-width: 768px) {
-    .footer{
-        max-width: 768px;
-    }
     .container-link-logo{
         width: 264px;
     }
@@ -1246,7 +1242,6 @@ input {
 /*----------------------------Dekstop----------------------------------*/
 @media screen and (min-width: 1158px) {
     .footer {
-       max-width: 1440px;
        padding-top: 100px;
        padding-bottom: 100px;
        margin: 0 auto;
